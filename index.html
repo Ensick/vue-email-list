@@ -11,6 +11,11 @@
 
     <div id="app">
 
+        <button @click="start">Genera Email</button>
+        <div v-for='email in arrayEmail' v-if="arrayEmail.length == lunghezzaArray">
+            {{email}}
+        </div>
+
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
